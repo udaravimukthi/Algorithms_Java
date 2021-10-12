@@ -12,5 +12,12 @@ public class ReverseString {
 
         String reverse = "";
 
+        reverse = AddReverse();
+        System.out.println("Revered word :" + reverse);
+
+    }
+
+    static String AddReverse() {
+
     }
 }
