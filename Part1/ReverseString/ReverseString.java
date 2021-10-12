@@ -9,17 +9,12 @@ public class ReverseString {
         System.out.print("Input the word \n");
         String s = sc.nextLine();
         System.out.print("The original word:" + s);
-
-        // String reverse = "";
-
-        // reverse = ;
-        System.out.println("Revered word :" + AddReverse(s));
-
-    }
-
-    static String AddReverse(String word) {
-        for(in)
-        return word;
+        System.out.println("\nOutput reversed word");
+        int n = s.length();
+        char[] reverse = s.toCharArray();
+        for (int i = n - 1; i >= 0; i--) {
+            System.out.print(reverse[i]);
+        }
 
     }
 }
