@@ -10,14 +10,16 @@ public class ReverseString {
         String s = sc.nextLine();
         System.out.print("The original word:" + s);
 
-        String reverse = "";
+        // String reverse = "";
 
-        reverse = AddReverse();
-        System.out.println("Revered word :" + reverse);
+        // reverse = ;
+        System.out.println("Revered word :" + AddReverse(s));
 
     }
 
-    static String AddReverse() {
+    static String AddReverse(String word) {
+        for(in)
+        return word;
 
     }
 }
